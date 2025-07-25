@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="logo">YourLogo</div>
+            <ul class="nav-links">
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#about-section">About Us</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#features-section">Features</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero-section" class="hero-section">
+            <div class="hero-content">
+                <h1>Solutions for Your Modern Needs</h1>
+                <p>We provide innovative and tailored services to help you achieve your goals.</p>
+                <a href="#services-section" class="btn primary-btn">Explore Our Services</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/135/705/non_2x/innovative-solution-concepts-vector.jpg" alt="Innovative Solutions">
+            </div>
+        </section>
+
+        <section id="about-section" class="about-section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a dedicated team passionate about delivering excellence. With years of experience, we pride ourselves on our client-centric approach and commitment to quality.</p>
+                <p>Our mission is to empower businesses and individuals through cutting-edge technology and unparalleled support. We believe in building lasting relationships based on trust and mutual growth.</p>
+            </div>
+        </section>
+
+        <section id="services-section" class="services-section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <h3>Web Development</h3>
+                        <p>Crafting responsive and dynamic websites tailored to your unique vision and business needs.</p>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>Digital Marketing</h3>
+                        <p>Boosting your online presence with strategic SEO, social media, and content marketing.</p>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and aesthetically pleasing user interfaces for exceptional user experiences.</p>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="features-section" class="features-section">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3>Expert Team</h3>
+                        <p>Our professionals bring a wealth of knowledge and expertise to every project.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Custom Solutions</h3>
+                        <p>We understand that every client is unique, offering bespoke solutions that fit perfectly.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>24/7 Support</h3>
+                        <p>Our dedicated support team is always ready to assist you, day or night.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Proven Results</h3>
+                        <p>We are committed to delivering measurable results that drive your success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Modern Company. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
